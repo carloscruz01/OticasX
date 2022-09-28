@@ -1,13 +1,11 @@
 body {
-    background-color: #6480FF;
+    background-color: #6480FF; margin-bottom: 4px;text-decoration: #FFFF00;
 }
-h1 {
-    color: #FFFF00;font-size: 16px;
-}
-p {
-    font-size: 16px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+.image1 { margin-bottom: 4px;padding-bottom: 4px;
 }  
-.image1 { margin-bottom: 4px;padding-bottom: 4px;}  
-.endereço {text-decoration: #FFFF00 ;text-align: right;font-size: 12px; line-height: 140%; float: right;} 
-.telefone {text-decoration: #FFFF00 ;text-align: right;font-size: 12px; line-height: 140%; float: right;} 
-.e-mail {text-decoration: #FFFF00 ;text-align: right;font-size: 12px; line-height: 140%; float: right;} 
+.endereço { text-decoration: #FFFF00 ;text-align: right;font-size: 12px; line-height: 140%; float: right;
+} 
+.telefone { text-decoration: #FFFF00 ;text-align: right;font-size: 12px; line-height: 140%; float: right;
+} 
+.e-mail { text-decoration: #FFFF00 ;text-align: right;font-size: 12px; line-height: 140%; float: right;
+} 

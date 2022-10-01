@@ -8,26 +8,27 @@ section {
 header {
     display: block; text-align: right;font-size: 12px; line-height: 140%; float: right;
 }
+nav.botoes {
+     margin: 2px; border-top: 2px;border-bottom: 2px;padding-top: 4px;padding-bottom: 4px;
+     text-align: center; text-decoration: solid; font-weight: 100; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 .inicial {
     font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
     padding-left: 4px;padding-right: 4px;background-color: #FFEE66;display: inline-block;
-    width: 100px;text-align: center; vertical-align: sub;
+    width: 100px;text-align: center; vertical-align: bottom;
 }
 .lentes {
     font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
     padding-left: 4px;padding-right: 4px;background-color: #FFEE66;display: inline-block;
-    width: 100px;text-align: center; vertical-align: sub;
+    width: 100px;text-align: center; vertical-align: bottom;
 }
 .armacoes {
     font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
     padding-left: 4px;padding-right: 4px;background-color: #FFEE66;display: inline-block;
-    width: 100px;text-align: center;vertical-align: sub;
+    width: 100px;text-align: center; vertical-align: bottom;
 }
 .compras {
     font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
     padding-left: 4px;padding-right: 4px;background-color: #FFEE66;display: inline-block;
-    width: 100px;text-align: center;vertical-align: sub;
-}
-.div {
-    text-align: center;font-size: 18px;
+    width: 100px;text-align: center; vertical-align: bottom;
 }

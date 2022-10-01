@@ -50,3 +50,15 @@ header {
     background-color: #FFEE66;display: inline-block;
     width: 100px;text-align: center; vertical-align: bottom;
 }
+.text1 {
+    color: #FFEE66; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.listalentes {
+    text-decoration-color: #3040BB; background-color: #EEDD99;
+    padding: 10px 10px 10px 50px; margin: 30px 10px 10px 10px; 
+    border: 2px; border-style: solid; border-color: #000055;
+    line-height: 200%; list-style-type: upper-roman; display: block;
+}
+.inlista {
+    color: #3040BB; line-height: 200%; list-style-type: none; display: block; 
+}

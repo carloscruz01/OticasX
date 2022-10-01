@@ -20,7 +20,7 @@ header {
      margin: 2px; border-top: 2px;border-bottom: 2px;padding-top: 4px;padding-bottom: 4px;
      text-align: center;
      text-decoration: solid;font-weight: 100; 
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
       
 }
 .inicial {
@@ -49,13 +49,4 @@ header {
     padding-left: 4px;padding-right: 4px;
     background-color: #FFEE66;display: inline-block;
     width: 100px;text-align: center; vertical-align: bottom;
-}
-.apresentationpag{
-    text-align: center; font-size: 22px;
-    display: block; 
-}
-.img-center {
-    padding-top: 10px; 
-    float: initial;
-    display: block;
 }

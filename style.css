@@ -33,12 +33,6 @@ nav.ender{
     padding-left: 4px;padding-right: 4px;background-color: #FFEE66;display: inline-block;
     width: 100px;text-align: center; vertical-align: bottom;
 }
-.texto1 {
-    display: block; text-align: center; font-size: 22px;
-}
-.apresentationpag {
-    background-position: center;display: block; 
-}
-.texto2 {
-    display: block; text-align: center; font-size: 22px;
+.apresentationpag{
+    text-align: center; font-size: 22px;background-position: center; display: block;
 }

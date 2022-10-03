@@ -54,11 +54,12 @@ header {
     color: #FFEE66; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .listalentes {
-    text-decoration-color: #3040BB; background-color: #EEDD99;
+    text-decoration-color: #3040BB; background-color: #EEDD99; 
+    border-width: 10px, 10px, 10px, 50px; width: 10px, 10px, 10px, 50px;
     padding: 10px 10px 10px 50px; margin: 30px 10px 10px 10px; 
-    border: 2px; border-style: solid; border-color: #000055;
-    line-height: 200%; list-style-type: upper-roman; display: block;
+    border: 2px; border-style: solid; border-color: #000055; width: 50%;
 }
 .inlista {
-    color: #3040BB; line-height: 200%; list-style-type: none; display: block; 
+    color: #3040BB; line-height: 140%; list-style-type: upper-roman;
+    width: 10px, 10px, 10px, 50px;
 }

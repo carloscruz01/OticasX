@@ -1,0 +1,71 @@
+body {
+    background-color: #6480FF;color: #FFFF00;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section { 
+    display: block; 
+    float: left;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+}
+header {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    line-height: 140%;
+    float: right;
+}
+.ender{
+     margin: 2px; border-top: 2px;border-bottom: 2px;padding-top: 4px;padding-bottom: 4px;
+     text-align: center;
+     text-decoration: solid;font-weight: 100; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+}
+.inicial {
+    font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;
+    text-align: center; vertical-align: bottom;
+    
+}
+.lentes {
+    font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;text-align: center; vertical-align: bottom;
+}
+.armacoes {
+    font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;text-align: center;
+     vertical-align: bottom;
+}
+.compras {
+    font-size: 14px; margin-top: 0px; margin-bottom: 0px; margin-left: 4px; margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;text-align: center; vertical-align: bottom;
+}
+.text_table {
+    color: #FFFF22; 
+}
+.taboculos {
+    border: 3px; border-style: bold; background-color: #EEDD99; color: #000066; 
+    width: 96%; margin: 0 auto; font-family: arial, ubuntu; 
+    border-collapse: collapse;
+}
+.titulo {
+    color: #FFFF22; background-color: #447799;
+    font-size: 24px; text-align: center; font-weight: bold; 
+}
+.tdth {
+    border: 3px; font-weight: bold; color: #000055;
+     padding: 6px, 12px, 6px, 12px;
+}
+.linTH {
+    color: #FFFFFF; background-color: #777777; vertical-align: middle; text-align: center;
+}

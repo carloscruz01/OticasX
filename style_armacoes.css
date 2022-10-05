@@ -65,3 +65,6 @@ header {
 .linTH {
     color: #FFFFFF; background-color: #777777; vertical-align: middle; text-align: center;
 }
+.tdth {
+    border: 3px; border: solid; border-color: #000055; padding: 6px, 12px, 6px, 12px;
+}

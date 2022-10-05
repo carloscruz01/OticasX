@@ -54,17 +54,13 @@ header {
     color: #FFFF22; 
 }
 .taboculos {
-    border: 3px; border-style: bold; background-color: #EEDD99; color: #000066; 
-    width: 96%; margin: 0 auto; font-family: arial, ubuntu; 
+    border: 3px; background-color: #EEDD99; color: #000066; 
+    width: 96%; margin: auto; font-family: arial, ubuntu; 
     border-collapse: collapse;
 }
 .titulo {
     color: #FFFF22; background-color: #447799;
-    font-size: 24px; text-align: center; font-weight: bold; 
-}
-.tdth {
-    border: 3px; font-weight: bold; color: #000055;
-     padding: 6px, 12px, 6px, 12px;
+    font-size: 24px; text-align: center; font-weight: bold; border-collapse: collapse;
 }
 .linTH {
     color: #FFFFFF; background-color: #777777; vertical-align: middle; text-align: center;

@@ -45,7 +45,8 @@ header {
      vertical-align: bottom;
 }
 .compras {
-    font-size: 14px; margin-top: 0px; margin-bottom: 0px; margin-left: 4px; margin-right: 4px;
+    font-size: 14px; margin-top: 0px; margin-bottom: 0px;
+     margin-left: 4px; margin-right: 4px;
     padding-left: 4px;padding-right: 4px;
     background-color: #FFEE66;display: inline-block;
     width: 100px;text-align: center; vertical-align: bottom;
@@ -53,18 +54,12 @@ header {
 .text_table {
     color: #FFFF22; 
 }
-.taboculos {
-    border: 3px; background-color: #EEDD99; color: #000066; 
-    width: 96%; margin: auto; font-family: arial, ubuntu; 
-    border-collapse: collapse;
+.tabooculos {
+    border-width: 3px; border-width: solid; border-width: thin;
+    border-collapse: collapse; background-color: #EEDD99; color: #000066;
+    width: 96%; margin-left: auto; margin-right: auto; margin: 0 auto; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.titulo {
-    color: #FFFF22; background-color: #447799;
-    font-size: 24px; text-align: center; font-weight: bold; border-collapse: collapse;
-}
-.linTH {
-    color: #FFFFFF; background-color: #777777; vertical-align: middle; text-align: center;
-}
-.tdth {
-    border: 3px; border: solid; border-color: #000055; padding: 6px, 12px, 6px, 12px;
+.estiloth {
+    border-width: 3px; border-width: solid; border-color: #000055;
+    padding: 6px, 12px, 6px, 12px;
 }

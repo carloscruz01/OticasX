@@ -45,26 +45,36 @@ header {
      vertical-align: bottom;
 }
 .compras {
-    font-size: 14px; margin-top: 0px; margin-bottom: 0px; margin-left: 4px; margin-right: 4px;
+    font-size: 14px; margin-top: 0px; margin-bottom: 0px;
+    margin-left: 4px; margin-right: 4px;
     padding-left: 4px;padding-right: 4px;
     background-color: #FFEE66;display: inline-block;
     width: 100px;text-align: center; vertical-align: bottom;
 }
-.text_table {
+.text {
     color: #FFFF22; 
 }
 .taboculos {
-    border: 3px; background-color: #EEDD99; color: #000066; 
+    background-color:#EEDD99; color: #000066; 
     width: 96%; margin: auto; font-family: arial, ubuntu; 
-    border-collapse: collapse;
+    border-collapse: collapse;  border: 3px; border: solid; 
+    border-color: #000055; padding: 6px, 12px, 6px, 12px;
 }
 .titulo {
     color: #FFFF22; background-color: #447799;
-    font-size: 24px; text-align: center; font-weight: bold; border-collapse: collapse;
+    font-size: 24px; display: inline-table; font-weight: bold; width: 350%; border-collapse: collapse;
 }
-.linTH {
+.td {
+    border: 3px; border: solid; border-color: #000055; padding: 6px, 12px, 6px, 12px; 
+    text-align: center; border-collapse: collapse; margin: 0% auto;
+   
+}
+.colth {
+    color: #FFFFFF; background-color: #999999; text-align: center; border: 3px; border: solid; 
+    border-color: #000055; padding: 6px, 12px, 6px, 12px; border-collapse: collapse; border-top: 3px;
+}
+.linth {
     color: #FFFFFF; background-color: #777777; vertical-align: middle; text-align: center;
-}
-.tdth {
-    border: 3px; border: solid; border-color: #000055; padding: 6px, 12px, 6px, 12px;
+    border: 3px;border-top:  3px;  border: solid; border-color: #000055;
+    padding: 6px, 12px, 6px, 12px; border-collapse: collapse;
 }

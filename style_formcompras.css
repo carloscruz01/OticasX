@@ -1,0 +1,75 @@
+body {
+    background-color: #6480FF;color: #FFFF00;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section { 
+    display: block; 
+    float: left;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+}
+header {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    line-height: 140%;
+    float: right;
+}
+.ender{
+     margin: 2px; border-top: 2px;border-bottom: 2px;padding-top: 4px;padding-bottom: 4px;
+     text-align: center;
+     text-decoration: solid;font-weight: 100; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+}
+.inicial {
+    font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;
+    text-align: center; vertical-align: bottom;
+    
+}
+.lentes {
+    font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;text-align: center; vertical-align: bottom;
+}
+.armacoes {
+    font-size: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 4px;margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;text-align: center;
+     vertical-align: bottom;
+}
+.compras {
+    font-size: 14px; margin-top: 0px; margin-bottom: 0px; margin-left: 4px; margin-right: 4px;
+    padding-left: 4px;padding-right: 4px;
+    background-color: #FFEE66;display: inline-block;
+    width: 100px;text-align: center; vertical-align: bottom;
+}
+.titulo {
+    color: #FFFF22;
+}
+.geral { 
+    width: 580px; color: #880000; background-color: #EEDD99;
+    padding: 6px 6px 15px 6px; align-items: center; margin: 10px auto;
+    border: 2px; border: solid; border-color: #000055;
+}
+.fsEsq {
+    float: left; display: inline; margin: 0px;
+}
+.fsDir {
+    float: right; display: inline; margin: 0px;
+}
+.inpGrande {
+    width: 440px;
+}
+.inpMedio {
+    width: 80px;
+}
+.impNCC {
+    width: 130px;
+}

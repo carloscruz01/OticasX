@@ -6,8 +6,3 @@
 Sobre o desenvolvimento do site:
 Front end | Carlos Cruz
 Back end| Carlos Cruz
-
-#Contatos: 
-E-mail: contato.carloscruz29@gmail.com
-Github: https://github.com/carloscruz01
-Linkedin: Carlos Cruz

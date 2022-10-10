@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <title>OticasX</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style_formcompras.css">
         <style>
             a:hover {
                 color: #EEEE00;
@@ -48,19 +48,42 @@
                 </a>
             </nav>
         <hr>
-        <article class="apresentationpag">
-            <br>
-            <br>
-            <br>
-            Óculos e Lentes de contato
-            <section class="img-center">
-                <figure>
-                    <img src="Imagens/APDVOtica_Logo.png">
-                </figure>  
-            </section>
-            <p>  
-            Sua melhor opção em Ótica!
-            </p>        
+        <article class="titulo">
+            <h2>Compras</h2>
         </article>
+        <section class="geral">
+            <fieldset>
+                <legend>
+                    Identificação
+                </legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco">
+                    <fieldset class="fsDir">
+                        <legend>
+                            Genero
+                        </legend>
+                            <div>
+                                <input type="radio" id="mas" name="mas">
+                                <label for="mas">Mas</label>
+                                <input type="radio" id="fem" name="fem">
+                                <label for="fem">Fem</label>
+                                <input type="radio" id="outro" name="outro">
+                                <label for="outro">Outro</label>
+                            </div>
+                    </fieldset>
+                <br>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+                <br>
+                <label for="celular">Celular</label>
+                <input type="text" id="celular" name="celular">
+            </fieldset>
+        </section>
     </body>
 </html>

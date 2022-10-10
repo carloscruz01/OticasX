@@ -73,3 +73,15 @@ header {
 .impNCC {
     width: 130px;
 }
+.impTelef {
+    width: 90px;
+}
+.impEnder {
+    width: 200px; height: 60px;
+}
+.numDD {
+    width: 30px;
+}
+.numQD {
+    width: 50px;
+}

@@ -40,7 +40,7 @@
                 <a href="page_lentes.html">
                     <button class="lentes">LENTES</button>
                 </a>
-                <a href="page_armacoes.html">
+                <a class="hover" href="page_armacoes.html">
                     <button class="armacoes">ARMAÇÕES</button>
                 </a>
                 <a href="page_formcompras.html">
@@ -57,18 +57,18 @@
                     Identificação
                 </legend>
                 <label for="name">Nome:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" class="inpGrande">
                 <br>
-                <label for="email">E-mail</label>
-                <input type="text" id="email" name="email">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" class="inpGrande">
                 <br>
-                <label for="endereco">Endereço</label>
-                <input type="text" id="endereco" name="endereco">
+                <label for="endereco">Endereço: </label>
+                <span style=""><input class="impEnder" type="text" id="endereco" name="endereco"></span>
                     <fieldset class="fsDir">
                         <legend>
                             Genero
                         </legend>
-                            <div>
+                            <div>   
                                 <input type="radio" id="mas" name="mas">
                                 <label for="mas">Mas</label>
                                 <input type="radio" id="fem" name="fem">
@@ -77,13 +77,62 @@
                                 <label for="outro">Outro</label>
                             </div>
                     </fieldset>
+                    <fieldset class="fsDir">
+                        <legend>
+                            Nascimento
+                        </legend>
+                        <div>
+                            <label for="data">Data: </label> 
+                            <input type="number" size="2" placeholder="DD" min="1" max="31" /> /
+                            <input type="number" size="2" placeholder="MM" min="1" max="12"/> /
+                            <input type="number" size="2" placeholder="1980" min="1980" max="2022"/>
+                        </div>
+                    </fieldset>
+                <label for="telefone">Telefone: </label>
+                <input type="text" id="telefone" name="telefone" class="impTelef">
                 <br>
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" name="telefone">
-                <br>
-                <label for="celular">Celular</label>
-                <input type="text" id="celular" name="celular">
+                <label for="celular">Celular:   </label>
+                <input type="text" id="celular" name="celular" class="impTelef">
             </fieldset>
+            <fieldset>
+                <legend>
+                    Pagamento
+                </legend>
+                <div class="">
+                    <fieldset>
+                        <legend>Cartão</legend>
+                            <div>
+                                <fieldset>
+                                    <legend>
+                                        Bandeira
+                                    </legend>
+                                    <input type="radio" id="visa" name="visa">
+                                    <label for="visa">Visa</label>
+                                    <input type="radio" id="master" name="master">
+                                    <label for="master">Master</label>
+                                    <input type="radio" id="elo" name="elo">
+                                    <label for="elo">Elo</label>
+                                </fieldset>
+                            </div>    
+                        <label for="validade">Validade:</label>
+                        <input class="numDD" type="number" placeholder="1">/
+                        <input class="numQD" type="number" placeholder="2022">
+                        <br><br>
+                        <label>Número:</label>
+                        <input class="impTelef" type="number">
+                        <br><br>
+                        <label>Parcelas:</label>
+                        <input type="hidden">
+                        <label for="endereco"></label>
+                        <input class="impEnder2" type="text" id="endereco" name="endereco">
+                    </fieldset>
+                    <br>
+                </div> 
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Limpar">
+            </div>
         </section>
     </body>
 </html>

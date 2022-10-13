@@ -58,6 +58,9 @@ header {
     padding: 6px 6px 15px 6px; align-items: center; margin: 10px auto;
     border: 2px; border: solid; border-color: #000055;
 }
+.listaCompras {
+    width: 230px; height: 230px; float: right; margin-top: 8px; margin-left: 10px;
+}
 .fsEsq {
     float: left; display: inline; margin: 0px;
 }
@@ -74,10 +77,13 @@ header {
     width: 130px;
 }
 .impTelef {
-    width: 90px;
+    width: 90px; align-items: center;
 }
 .impEnder {
     width: 200px; height: 60px;
+}
+.impEnder2 {
+    width: 200px; height: 60px; float: right;
 }
 .numDD {
     width: 30px;
